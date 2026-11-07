@@ -61,3 +61,5 @@ def decrypt_frame(key: bytes, frame_data: bytes) -> bytes:
         return plaintext
     except Exception as e:
         raise ValueError("Cryptographic verification failed: invalid password or corrupted frame") from e
+
+# 16-byte random salt header generator
