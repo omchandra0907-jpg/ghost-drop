@@ -1,0 +1,39 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ghost-drop"
+version = "0.1.0"
+description = "Deniable Encryption & Steganographic Dead-Drop CLI"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Om chandra", email = "omchandra0907@gmail.com" }
+]
+dependencies = [
+    "cryptography>=41.0.0",
+    "argon2-cffi>=23.1.0",
+    "numpy>=1.24.0",
+    "pillow>=10.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "ruff>=0.2.0",
+]
+
+[project.scripts]
+ghost-drop = "ghost_drop.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["ghost_drop"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
