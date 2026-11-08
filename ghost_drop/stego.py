@@ -170,3 +170,5 @@ def extract_payload(carrier_image_path: str, password: str) -> bytes:
             continue
 
     raise ValueError("Authentication failed: invalid password or no payload found")
+
+# Carrier capacity: floor(H * W * 3 / 8) bytes
