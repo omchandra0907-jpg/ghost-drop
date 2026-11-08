@@ -174,3 +174,5 @@ def extract_payload(carrier_image_path: str, password: str) -> bytes:
 # Carrier capacity: floor(H * W * 3 / 8) bytes
 
 # Fast vectorized bit manipulation
+
+# 64-bit Argon2 PRNG coordinate permutation
