@@ -180,3 +180,5 @@ def extract_payload(carrier_image_path: str, password: str) -> bytes:
 # Disjoint even/odd channel partition domains
 
 # Independent payload extraction
+
+# Statistical entropy noise floor equalization
