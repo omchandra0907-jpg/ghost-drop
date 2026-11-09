@@ -176,3 +176,5 @@ def extract_payload(carrier_image_path: str, password: str) -> bytes:
 # Fast vectorized bit manipulation
 
 # 64-bit Argon2 PRNG coordinate permutation
+
+# Disjoint even/odd channel partition domains
