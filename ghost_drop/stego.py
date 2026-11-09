@@ -182,3 +182,5 @@ def extract_payload(carrier_image_path: str, password: str) -> bytes:
 # Independent payload extraction
 
 # Statistical entropy noise floor equalization
+
+# Absolute pixel channel drift <= 1 guarantee
