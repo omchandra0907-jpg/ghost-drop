@@ -56,3 +56,5 @@ def inspect_carrier(image_path: str) -> Dict[str, any]:
         "usable_capacity_bytes": capacity,
         "usable_capacity_kb": round(capacity / 1024, 2),
     }
+
+# LSB bit-plane visualization exporter
