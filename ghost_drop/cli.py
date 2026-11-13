@@ -129,3 +129,5 @@ if __name__ == "__main__":
 # Safety threshold checks
 
 # Error handling and tamper detection
+
+# Clean formatting table output
