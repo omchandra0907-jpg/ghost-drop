@@ -184,3 +184,5 @@ def extract_payload(carrier_image_path: str, password: str) -> bytes:
 # Statistical entropy noise floor equalization
 
 # Absolute pixel channel drift <= 1 guarantee
+
+# Typed NumPy array interfaces
