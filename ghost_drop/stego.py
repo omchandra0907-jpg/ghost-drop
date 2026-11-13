@@ -170,19 +170,3 @@ def extract_payload(carrier_image_path: str, password: str) -> bytes:
             continue
 
     raise ValueError("Authentication failed: invalid password or no payload found")
-
-# Carrier capacity: floor(H * W * 3 / 8) bytes
-
-# Fast vectorized bit manipulation
-
-# 64-bit Argon2 PRNG coordinate permutation
-
-# Disjoint even/odd channel partition domains
-
-# Independent payload extraction
-
-# Statistical entropy noise floor equalization
-
-# Absolute pixel channel drift <= 1 guarantee
-
-# Typed NumPy array interfaces

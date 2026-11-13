@@ -64,5 +64,3 @@ def test_zero_pixel_drift_and_psnr(sample_cover_image, tmp_path):
     assert max_drift <= 1
     # PSNR must exceed 51.0 dB
     assert psnr > 51.0
-
-# Assert np.max(np.abs(carrier - stego)) <= 1

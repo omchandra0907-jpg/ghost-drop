@@ -125,9 +125,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-# Safety threshold checks
-
-# Error handling and tamper detection
-
-# Clean formatting table output
